@@ -33,7 +33,7 @@ public class lightUp : MonoBehaviour {
 
 	}
 	public void playerSelection() {
-		//GameLogic.GetComponent<gameLogic>().playerSelection(this.gameObject);
+		gameLogic.GetComponent<GameLogic>().playerSelection(this.gameObject);
 		//this.GetComponent<GvrAudioSource>().Play();
 	}
 	public void aestheticReset() {
